@@ -27,7 +27,7 @@ In settings.py
 
 Create the model tables
 
-   $ python manage.py syncdb
+    $ python manage.py syncdb
 
 
 
