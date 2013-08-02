@@ -1,13 +1,16 @@
 django-requestlog
 =================
 
-A Django middleware to log incoming request.
+A Django middleware to log incoming request to a database.  The logs
+are available in the Django admin site.
 
 Installation
 ------------
-# In settings.py
+
+In settings.py
 
     INSTALLED_APPS = (
+        ...
         'requestlog',
     )
 
@@ -22,10 +25,9 @@ Installation
         '/favicon.ico',
     )
 
-#. Create the model tables
+Create the model tables
 
    $ python manage.py syncdb
 
-#. Done
 
 
